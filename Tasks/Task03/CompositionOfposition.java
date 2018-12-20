@@ -28,9 +28,10 @@ class CompositionOfposition {
 
                     //считаем произведение входных позиций чисел
                     compositionofNum = compositionofNum *  positionofNum;
-                    positionofNum++;
+                    
                 }
                 currentNumber = scanner.nextInt();
+                positionofNum++;
             }
             System.out.println("compositionofNum = " + compositionofNum);
         }
