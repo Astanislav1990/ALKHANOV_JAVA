@@ -21,20 +21,24 @@ class CompositionOfposition {
                 System.out.println("digitsSum = " + digitsSum);
                 currentNumber = currentNumber / 10;
             }
-            // определяем простое число или нет
-            for (int divider = 2; divider * divider <= digitsSum; divider++) {
+             if (digitsSum == 1) {
+            }
+            if (digitsSum == 2 || digitsSum == 3) {
+                // произведение входных позиций чисел
+                compositionofNum = compositionofNum * positionofNum;
+                System.out.println("Prime");
+            }
+            // определяем cумму цифр простое число или нет
+            for (int divider = 2; divider * divider <= digitsSum; divider++)
                 if (digitsSum % divider != 0) {
                     System.out.println("Prime");
-
-                    //считаем произведение входных позиций чисел
-                    compositionofNum = compositionofNum *  positionofNum;
-                    
+                    // произведение входных позиций чисел
+                    compositionofNum = compositionofNum * positionofNum;
                 }
-                currentNumber = scanner.nextInt();
-                positionofNum++;
-            }
-            System.out.println("compositionofNum = " + compositionofNum);
+            currentNumber = scanner.nextInt();
+            positionofNum++;
         }
+        System.out.println("compositionofNum = " + compositionofNum);
     }
 }
 
