@@ -4,12 +4,12 @@ import java.util.Scanner;
  * Created by Админ on 18.12.2018.
  */
 
-class CompositionOfposition {
+class ProductOfposition {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int currentNumber = scanner.nextInt();
-        int compositionofNum = 1;
+        int productofNum = 1;
         int positionofNum = 1;
         int currentDigit = 0;
         while (currentNumber != -1) {
@@ -25,7 +25,7 @@ class CompositionOfposition {
             }
             if (digitsSum == 2 || digitsSum == 3) {
                 // произведение входных позиций чисел
-                compositionofNum = compositionofNum * positionofNum;
+                productofNum = productofNum * positionofNum;
                 System.out.println("Prime");
             }
             // определяем cумму цифр простое число или нет
@@ -33,12 +33,12 @@ class CompositionOfposition {
                 if (digitsSum % divider != 0) {
                     System.out.println("Prime");
                     // произведение входных позиций чисел
-                    compositionofNum = compositionofNum * positionofNum;
+                    productofNum = productofNum * positionofNum;
                 }
             currentNumber = scanner.nextInt();
             positionofNum++;
         }
-        System.out.println("compositionofNum = " + compositionofNum);
+        System.out.println("productofNum = " + productofNum);
     }
 }
 
