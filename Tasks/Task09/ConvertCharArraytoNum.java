@@ -11,7 +11,7 @@ public class ConvertCharArraytoNum {
              int  x =(int) a[i] - '0';
              number = number * 10 + x;
         }
-        System.out.print (number);
+        System.out.println (number);
     }
 }
 
