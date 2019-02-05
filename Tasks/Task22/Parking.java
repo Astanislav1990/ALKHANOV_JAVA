@@ -16,24 +16,25 @@ public class Parking {
 
     public void Park(Transport transport) {
         for (int i = 0; i < PLACES_COUNT; i++) {
-            if (places[i].getNumber() == null) {
+            if (places[i].getNumberID() == null) {
                 this.places[i].setTransport(transport);
-                this.places[i].setNumber(transport.getRegnumber());
+                this.places[i].setNumberID(transport.getRegnumber());
                 return;
             }
         }
         System.err.println("Нет мест");
     }
 
-    public void UnPark(String number) {
+    public void UnPark(String Regnumber) {
         for (int i = 0; i < PLACES_COUNT; i++) {
-            if (places[i].getNumber().equals(number)) {
-                places[i].setNumber(null);
+            if (places[ i ].getNumberID() != null && places[ i ].getTransport() != null && places[i].getNumberID().equals(Regnumber) ) {
+                places[i].setNumberID(null);
                 places[i].setTransport(null);
                 return;
             }
+
         }
-        System.err.println("Такой машины нет");
+        System.err.println("Такого ТС нет");
     }
 
 

@@ -18,9 +18,23 @@ public class Main {
         AirTransport airTransports[] = {airplane, spacecraft, helicopter};
         Shoot shoots[] = {tank, spacecraft};
 
-        //tank.shoot();
+
         car.park(parking);
-        //car.go();
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+        car.park(parking);
+
+        tank.unpark(parking);
+
+
+
+
 
     }
 }

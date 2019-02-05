@@ -29,6 +29,9 @@ public abstract class  Transport {
     void park (Parking parking){
         parking.Park(this);
     }
+    void unpark (Parking parking) {
+        parking.UnPark(this.getRegnumber());
+    }
 
 
 }

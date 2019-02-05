@@ -5,21 +5,21 @@ package ru.itpark.task;
  */
 public class ParkingPlace {
     private Transport transport;
-    private String number;
+    private String numberID;
 
     public Transport getTransport() {
         return transport;
-    }
-
-    public String getNumber() {
-        return number;
     }
 
     public void setTransport(Transport transport) {
         this.transport = transport;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public String getNumberID() {
+        return numberID;
+    }
+
+    public void setNumberID(String numberID) {
+        this.numberID = numberID;
     }
 }
