@@ -1,0 +1,5 @@
+1 num bmv 0
+2 num1 lada 0
+3 num2 lada2 0
+4 num3 lada3 5
+5 qwe asdf 12
