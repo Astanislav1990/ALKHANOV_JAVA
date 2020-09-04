@@ -1,4 +1,4 @@
-package ru.rest.app;
+package ru.igoresha.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,7 +17,7 @@ public class SpringBootRestApplication {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("ru.rest.app.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("ru.igoresha.app.controllers"))
                 .paths(PathSelectors.any())
                 .build();
     }

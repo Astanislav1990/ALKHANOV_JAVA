@@ -1,4 +1,4 @@
-package ru.rest.app.controllers;
+package ru.igoresha.app.controllers;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,9 +6,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.rest.app.forms.QuestionForm;
-import ru.rest.app.models.Question;
-import ru.rest.app.services.QuestionService;
+import ru.igoresha.app.forms.QuestionForm;
+import ru.igoresha.app.models.Question;
+import ru.igoresha.app.services.QuestionService;
 
 @RestController
 @RequestMapping("/{interview-id}/questions")

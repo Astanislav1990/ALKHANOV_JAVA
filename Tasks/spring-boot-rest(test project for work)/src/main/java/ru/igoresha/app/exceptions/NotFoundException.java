@@ -1,4 +1,4 @@
-package ru.rest.app.exceptions;
+package ru.igoresha.app.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

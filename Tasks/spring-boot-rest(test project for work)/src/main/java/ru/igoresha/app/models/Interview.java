@@ -1,4 +1,4 @@
-package ru.rest.app.models;
+package ru.igoresha.app.models;
 
 import lombok.*;
 

@@ -1,14 +1,14 @@
-package ru.rest.app.services;
+package ru.igoresha.app.services;
 
 import org.hibernate.proxy.HibernateProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import ru.rest.app.exceptions.NotFoundException;
-import ru.rest.app.forms.InterviewForm;
-import ru.rest.app.models.Interview;
-import ru.rest.app.repositories.InterviewRepository;
+import ru.igoresha.app.exceptions.NotFoundException;
+import ru.igoresha.app.forms.InterviewForm;
+import ru.igoresha.app.models.Interview;
+import ru.igoresha.app.repositories.InterviewRepository;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

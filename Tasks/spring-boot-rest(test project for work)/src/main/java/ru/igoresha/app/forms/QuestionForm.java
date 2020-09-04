@@ -1,7 +1,7 @@
-package ru.rest.app.forms;
+package ru.igoresha.app.forms;
 
 import lombok.Data;
-import ru.rest.app.models.Interview;
+import ru.igoresha.app.models.Interview;
 
 @Data
 public class QuestionForm {

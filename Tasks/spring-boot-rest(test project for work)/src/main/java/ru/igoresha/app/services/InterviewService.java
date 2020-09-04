@@ -1,9 +1,9 @@
-package ru.rest.app.services;
+package ru.igoresha.app.services;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import ru.rest.app.forms.InterviewForm;
-import ru.rest.app.models.Interview;
+import ru.igoresha.app.forms.InterviewForm;
+import ru.igoresha.app.models.Interview;
 
 public interface InterviewService {
     Page<Interview> getPagesBySortAndDirectionAndFilter(String sortBy,

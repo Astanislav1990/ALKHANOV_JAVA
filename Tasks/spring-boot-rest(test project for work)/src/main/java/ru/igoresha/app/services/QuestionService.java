@@ -1,9 +1,9 @@
-package ru.rest.app.services;
+package ru.igoresha.app.services;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import ru.rest.app.forms.QuestionForm;
-import ru.rest.app.models.Question;
+import ru.igoresha.app.forms.QuestionForm;
+import ru.igoresha.app.models.Question;
 
 public interface QuestionService {
 

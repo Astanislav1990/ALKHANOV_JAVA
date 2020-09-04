@@ -1,4 +1,4 @@
-package ru.rest.app.forms;
+package ru.igoresha.app.forms;
 
 
 import lombok.Data;

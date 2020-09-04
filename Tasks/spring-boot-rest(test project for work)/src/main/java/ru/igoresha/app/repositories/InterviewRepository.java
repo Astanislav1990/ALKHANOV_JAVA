@@ -1,9 +1,9 @@
-package ru.rest.app.repositories;
+package ru.igoresha.app.repositories;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.rest.app.models.Interview;
+import ru.igoresha.app.models.Interview;
 
 import java.util.Date;
 
